@@ -5,20 +5,26 @@ function App() {
   return (<div >
       <div class="px-4 py-5 my-5 text-center">
     <h1 class="display-5 fw-bold">MESS WIDGET</h1>
-    <div class="col-lg-6 mx-auto">
+ 
+  </div>
+
+  <div class="col-lg-6 mx-auto">
       <p class="lead mb-4"></p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <div >
 
 
       <div class="card">
       <div class="card-info">
-      <h1>VIT MESS</h1>
+        <div className="titlecard">
+      <h1 class="display-5 fw-bold title3">VIT MESS'EM</h1>
+      <p className="display-5 fw-bold title4">TODAY's MENU</p>
+      </div>
       <div class="card3">
-                <h3 class="card__title">Title
+                <h3 className="title">LUNCH
                 </h3>
-                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="card__content">Rice, Dhal, Roti, Tandoori, Curd</p>
                 <div class="card__date">
-                    April 15, 2022
+                    12:30 - 2:30
                 </div>
                 <div class="card__arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
@@ -34,7 +40,6 @@ function App() {
 
       </div>
     </div>
-  </div>
 
   <div class="col-lg-6 mx-auto">
       <p class="lead mb-4"></p>
@@ -43,14 +48,17 @@ function App() {
         
       <div class="card2">
       <div class="card-info">
+        <div className="titlecard">
+      <h1 className="display-5 fw-bold title1">VIT MESS'EM</h1>
+      <p className="display-5 fw-bold title4">TODAY's MENU   ( 04-10-2024 )</p>
 
-      /* From Uiverse.io by satyamchaudharydev */ 
+      </div>
             <div class="card3">
-                <h3 class="card__title">Title
+                <h3 class="display-5 fw-bold title">BREAKFAST
                 </h3>
-                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="card__content">Idly, Sambar, Chutney, Chocos, Banana Milkshake</p>
                 <div class="card__date">
-                    April 15, 2022
+                    7:30 - 9:30
                 </div>
                 <div class="card__arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
@@ -60,11 +68,11 @@ function App() {
             </div>
 
             <div class="card3">
-                <h3 class="card__title">Title
+                <h3 class="display-5 fw-bold title">LUNCH
                 </h3>
-                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="card__content">Rice, Dhal, Roti, Tandoori, Curd</p>
                 <div class="card__date">
-                    April 15, 2022
+                12:30 - 2:30
                 </div>
                 <div class="card__arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
@@ -74,11 +82,11 @@ function App() {
             </div>
 
             <div class="card3">
-                <h3 class="card__title">Title
+                <h3 class="display-5 fw-bold title">SNACKS
                 </h3>
-                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="card__content">French Fries, Tea</p>
                 <div class="card__date">
-                    April 15, 2022
+                    4:00 - 6:00
                 </div>
                 <div class="card__arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
@@ -88,11 +96,11 @@ function App() {
             </div>
 
             <div class="card3">
-                <h3 class="card__title">Title
+                <h3 class="display-5 fw-bold title">DINNER
                 </h3>
-                <p class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="card__content">Egg friedrice, Garlic Sauce, Rice, Dhal</p>
                 <div class="card__date">
-                    April 15, 2022
+                    7:00 - 9:00
                 </div>
                 <div class="card__arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">

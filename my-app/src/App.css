@@ -41,7 +41,7 @@
 .card {
   --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
   width: 800px;
-  height: 200px;
+  height: 250px;
   padding: 5px;
   border-radius: 1rem;
   overflow: visible;
@@ -49,6 +49,7 @@
   background: var(--background);
   position: relative;
   z-index: 1;
+  margin-bottom: 100px;
  }
  
  .card::after {
@@ -86,7 +87,7 @@
  .card2 {
   --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
   width: 800px;
-  height: 800px;
+  height: 750px;
   padding: 5px;
   border-radius: 1rem;
   overflow: visible;
@@ -118,14 +119,14 @@
 
 .card3 {
   --border-radius: 0.75rem;
-  --primary-color: #7257fa;
+  --primary-color: #16c303;
   --secondary-color: #3c3852;
   width: 750px;
   font-family: "Arial";
   padding: 1rem;
   cursor: pointer;
   border-radius: var(--border-radius);
-  background: #816d6d;
+  background: #4493c173;
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
   position: relative;
   margin:20px;
@@ -136,8 +137,14 @@
 }
 
 .card3 .card__content {
-  color: var(--secondary-color);
-  font-size: 0.86rem;
+  color: white;
+  font-size: 1rem;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 .card3 .card__title {
@@ -147,8 +154,8 @@
 }
 
 .card3 .card__date {
-  color: #6e6b80;
-  font-size: 0.8rem;
+  color: #ffffff;
+  font-size: 0.95rem;
 }
 
 .card3 .card__arrow {
@@ -181,4 +188,63 @@
 
 .card3:hover .card__arrow svg {
   transform: translateX(3px);
+}
+
+.title{
+  font-size: large;
+  color: rgb(255, 255, 255);
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  
+}
+
+.title1{
+  font-size:xx-large;
+  color: rgb(255, 255, 255);
+  padding:10px;
+  text-align: right;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.title3{
+  font-size:large;
+  color: rgb(255, 255, 255);
+  padding-right: 15px;
+  padding-top: 10px;
+
+  text-align: right;
+
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.title4{
+  font-size:large;
+  color: rgb(255, 255, 255);
+  padding-left: 15px;
+  margin-bottom: 0;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  
+}
+.titlecard{
+  display: inline-block;
+  width:100%;
 }
