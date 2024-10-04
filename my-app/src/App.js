@@ -12,9 +12,10 @@ function App() {
       <p class="lead mb-4"></p>
       <div >
 
-
+      <h1 class="display-5 fw-bold">4 X 1</h1>
       <div class="card">
       <div class="card-info">
+        
         <div className="titlecard">
       <h1 class="display-5 fw-bold title3">VIT MESS'EM</h1>
       <p className="display-5 fw-bold title4">TODAY's MENU</p>
@@ -40,12 +41,14 @@ function App() {
 
       </div>
     </div>
-
   <div class="col-lg-6 mx-auto">
       <p class="lead mb-4"></p>
+      <h1 class="display-5 fw-bold">4 X 4</h1>
+
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-        
+
+
       <div class="card2">
       <div class="card-info">
         <div className="titlecard">
